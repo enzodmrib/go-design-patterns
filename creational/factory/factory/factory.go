@@ -18,7 +18,7 @@ import "fmt"
 	- Less transparent for debugging - Sometimes hides which conecrete type is used under the hood.
 
 	WHEN TO USE:
-	- When you have multimple implementations of an interface (e.g., Database, Storage, Cache).
+	- When you have multiple implementations of an interface (e.g., Database, Storage, Cache).
 	- When creation depends on runtime data (e.g., confi, environment, user input).
 	- When you want plugins or drivers that can register themselves dynamically.
 */
